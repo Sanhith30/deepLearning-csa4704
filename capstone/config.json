@@ -1,0 +1,48 @@
+{
+  "classes": [
+    "NORM",
+    "MI",
+    "STTC",
+    "CD",
+    "HYP"
+  ],
+  "thresholds": [
+    0.42000000000000004,
+    0.36000000000000004,
+    0.25000000000000006,
+    0.43000000000000005,
+    0.28
+  ],
+  "amp_threshold": 19.56747055053711,
+  "model_info": {
+    "architecture": "1D CNN with a bidirectional LSTM",
+    "training_records": "17,084"
+  },
+  "test_performance": {
+    "NORM": {
+      "auc": 0.95,
+      "sensitivity": 0.937,
+      "precision": 0.795
+    },
+    "MI": {
+      "auc": 0.93,
+      "sensitivity": 0.762,
+      "precision": 0.755
+    },
+    "STTC": {
+      "auc": 0.936,
+      "sensitivity": 0.81,
+      "precision": 0.766
+    },
+    "CD": {
+      "auc": 0.918,
+      "sensitivity": 0.688,
+      "precision": 0.838
+    },
+    "HYP": {
+      "auc": 0.903,
+      "sensitivity": 0.683,
+      "precision": 0.556
+    }
+  }
+}

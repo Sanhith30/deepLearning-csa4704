@@ -1,0 +1,6 @@
+streamlit>=1.50
+torch>=2.0
+numpy
+pandas
+matplotlib
+wfdb
