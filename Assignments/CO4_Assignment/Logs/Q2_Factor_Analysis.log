@@ -1,0 +1,47 @@
+{
+  "noisy_features": [
+    "alcohol",
+    "color_intensity"
+  ],
+  "added_noise_std": 4.0,
+  "added_noise_variance": 16.0,
+  "fa_noise_variance": {
+    "alcohol": 1.0726117488371951,
+    "malic_acid": 0.816660059887838,
+    "ash": 0.9689912887400542,
+    "alcalinity_of_ash": 0.8613303858055343,
+    "magnesium": 0.953026596210378,
+    "total_phenols": 0.21971699416111368,
+    "flavanoids": 0.048550496015646205,
+    "nonflavanoid_phenols": 0.6835189106773347,
+    "proanthocyanins": 0.5463520551101253,
+    "color_intensity": 19.534179047706182,
+    "hue": 0.6873310593727169,
+    "od280/od315_of_diluted_wines": 0.33839386635036306,
+    "proline": 0.730167956450951
+  },
+  "two_highest_noise_features": [
+    "color_intensity",
+    "alcohol"
+  ],
+  "both_noisy_features_highest": true,
+  "noisy_loadings": [
+    {
+      "feature": "alcohol",
+      "added_noise_variance": 16.0,
+      "FA_noise_variance": 1.0726117488371951,
+      "PCA_first_loading": 0.3810526672964474,
+      "FA_first_loading": -0.2879380737297463,
+      "noisy": true
+    },
+    {
+      "feature": "color_intensity",
+      "added_noise_variance": 16.0,
+      "FA_noise_variance": 19.534179047706182,
+      "PCA_first_loading": 0.9222517261359652,
+      "FA_first_loading": -0.15444358922107013,
+      "noisy": true
+    }
+  ]
+}
+Elapsed: 2.34 s

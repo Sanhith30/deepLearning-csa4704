@@ -1,0 +1,47 @@
+{
+  "full_joint_free_parameters": 127,
+  "graph_parameters": 17,
+  "probability_tables": {
+    "P": {
+      "none": 0.1
+    },
+    "U": {
+      "0": 0.02,
+      "1": 0.4
+    },
+    "G": {
+      "0": 0.04,
+      "1": 0.3
+    },
+    "W": {
+      "0": 0.03,
+      "1": 0.25
+    },
+    "S": {
+      "(0, 0)": 0.05,
+      "(1, 0)": 0.8,
+      "(0, 1)": 0.35,
+      "(1, 1)": 0.95
+    },
+    "C": {
+      "0": 0.05,
+      "1": 0.9
+    },
+    "E": {
+      "(0, 0)": 0.01,
+      "(1, 0)": 0.75,
+      "(0, 1)": 0.55,
+      "(1, 1)": 0.95
+    }
+  },
+  "sum_exact_joint_probabilities": 0.9999999999999999,
+  "exact_P_E": 0.1162173216,
+  "exact_P_E_given_P": 0.42141,
+  "simulated_days": 10000,
+  "power_cuts_in_simulation": 932,
+  "postponed_days": 1205,
+  "simulated_P_E": 0.1205,
+  "simulated_P_E_given_P": 0.4409871244635193,
+  "conditional_risk_ratio": 3.6596441864192473
+}
+Elapsed: 1.55 s

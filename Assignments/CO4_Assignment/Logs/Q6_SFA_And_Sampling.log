@@ -1,0 +1,53 @@
+{
+  "SFA": {
+    "mixing_matrix": [
+      [
+        1.0,
+        0.8
+      ],
+      [
+        0.6,
+        -1.0
+      ]
+    ],
+    "slowness_slow_source": 4.6826142071878766e-05,
+    "slowness_fast_source": 0.03969360017736639,
+    "slowness_extracted": 4.682614015628386e-05,
+    "corr_extracted_original": 0.9999999999879281,
+    "smallest_difference_eigenvalue": 4.681053144289099e-05
+  },
+  "sampling_exact": {
+    "P_U": 0.05800000000000001,
+    "P_S": 0.09350000000000001,
+    "P_C": 0.129475,
+    "P_C_given_P": 0.3475000000000001,
+    "P_P_given_C": 0.2683915813863681
+  },
+  "sampling_results": [
+    {
+      "samples": 100,
+      "estimated_P_C": 0.16,
+      "absolute_error_P_C": 0.030524999999999997,
+      "accepted_C_events": 16,
+      "rejected_events": 84,
+      "estimated_P_P_given_C": 0.3125
+    },
+    {
+      "samples": 1000,
+      "estimated_P_C": 0.121,
+      "absolute_error_P_C": 0.00847500000000001,
+      "accepted_C_events": 121,
+      "rejected_events": 879,
+      "estimated_P_P_given_C": 0.256198347107438
+    },
+    {
+      "samples": 10000,
+      "estimated_P_C": 0.1322,
+      "absolute_error_P_C": 0.002725000000000005,
+      "accepted_C_events": 1322,
+      "rejected_events": 8678,
+      "estimated_P_P_given_C": 0.25113464447806355
+    }
+  ]
+}
+Elapsed: 1.51 s
