@@ -1,0 +1,7 @@
+n_words,structure,longest_path_compositions,gradient_norm_first_word
+8,left_deep_chain,7,0.0038251606102270193
+8,balanced_tree,3,0.04857978042287125
+64,left_deep_chain,63,6.828341863174781e-17
+64,balanced_tree,6,0.004251943457357165
+512,left_deep_chain,511,4.377434790472042e-122
+512,balanced_tree,9,0.0007751830482336363

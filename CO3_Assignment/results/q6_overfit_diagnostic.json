@@ -1,0 +1,13 @@
+{
+  "demonstration": "GRU memorizes a small random-label sequence-training set",
+  "train_examples": 64,
+  "validation_examples": 100,
+  "sequence_length": 10,
+  "input_features": 4,
+  "hidden_size": 64,
+  "epochs": 200,
+  "training_accuracy": 1.0,
+  "validation_accuracy": 0.5799999833106995,
+  "final_training_BCE": 0.00032821603235788643,
+  "interpretation": "The labels are independent of the inputs. High training accuracy with near-chance validation accuracy demonstrates memorization and poor generalization."
+}

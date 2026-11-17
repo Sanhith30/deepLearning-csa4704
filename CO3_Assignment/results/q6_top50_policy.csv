@@ -1,0 +1,2 @@
+alerts,threshold_min_selected_score,precision,recall,F1,PR_AUC,frauds_in_50_alerts,total_frauds
+50,0.6978884339332581,0.3,0.8333333333333334,0.4411764705882353,0.6996771306346433,15,18

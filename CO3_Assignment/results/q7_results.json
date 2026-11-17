@@ -1,0 +1,52 @@
+{
+  "final_model": {
+    "test_MAE": 10.119029998779297,
+    "test_RMSE": 11.671900492567543,
+    "peak_hour_MAE": 17.15123176574707,
+    "parameters_measured": 6561,
+    "parameters_formula": 6561,
+    "training_seconds": 0.7317427420000513,
+    "mean_seconds_per_epoch": 0.10453467742857876,
+    "median_CPU_latency_ms_batch1": 0.4589120001128322,
+    "recent_window_steps": 36,
+    "daily_lag_center": 288,
+    "weekly_lag_center": 2016,
+    "longest_recurrent_gradient_path_steps": 35,
+    "longest_path_from_week_lag_to_output_nonlinear_layers": 1
+  },
+  "direct_full_2016_LSTM": {
+    "test_MAE": 51.33739471435547,
+    "test_RMSE": 52.25988617596674,
+    "peak_hour_MAE": 59.99554443359375,
+    "parameters": 1489,
+    "training_seconds": 16.54218023400017,
+    "median_CPU_latency_ms_batch1": 0.7392045000642611,
+    "sequence_steps": 2016,
+    "training_examples": 1512
+  },
+  "matched_test_subset": {
+    "test_samples": 168,
+    "lag_aware_MAE": 10.205804824829102,
+    "lag_aware_RMSE": 11.73552445269011,
+    "lag_aware_peak_hour_MAE": 16.05996322631836,
+    "direct_LSTM_MAE": 51.33739471435547,
+    "direct_LSTM_RMSE": 52.25988617596674,
+    "direct_LSTM_peak_hour_MAE": 59.99554443359375
+  },
+  "split": {
+    "train_days": "day 7 through day 27",
+    "validation_days": "day 28 through day 34",
+    "test_days": "day 35 through day 41",
+    "test_samples": 2016,
+    "peak_samples": 518
+  },
+  "final_training_loss_per_epoch": [
+    3389.6442769301166,
+    3164.7640473765305,
+    2607.3165145056046,
+    1939.5902072141535,
+    1258.5466073501354,
+    655.5322225433086,
+    215.92385139187624
+  ]
+}

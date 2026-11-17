@@ -1,0 +1,9 @@
+{
+  "naive_probability": [
+    1.0,
+    0.0
+  ],
+  "naive_loss_is_finite": false,
+  "stable_BCEWithLogits_loss": 0.0,
+  "stable_loss_is_finite": true
+}
