@@ -1,0 +1,3 @@
+VAE mean confidence 0.8853509426116943 class counts [0, 0, 55, 0, 145, 0, 0, 0, 0, 0] nearest Euclidean [6.221 5.652 6.296 6.445 6.265 4.612 6.308 5.237 5.502 5.26 ]
+GAN mean confidence 0.8452134728431702 class counts [0, 0, 0, 0, 200, 0, 0, 0, 0, 0] nearest Euclidean [6.369 7.833 7.686 7.913 6.634 6.523 7.137 7.849 7.177 6.725]
+classifier accuracy: 0.8866666666666667

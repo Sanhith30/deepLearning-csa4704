@@ -1,0 +1,13 @@
+Q1: no external dataset; exact parameters provided in assignment.
+Q2-Q3: sklearn.datasets.load_digits(), 1,797 real handwritten digit images, 8x8.
+Q4-Q7: REQUIRED Fashion-MNIST official images were NOT available for execution.
+The supplied program source defaults to official Fashion-MNIST IDX GZ files.
+The saved Q4-Q7 execution outputs were produced via --demo with resized
+scikit-learn Digits data only. Those outputs do NOT satisfy the requirement
+to execute on Fashion-MNIST. The Q7 demonstration additionally augments the
+available digit-class samples to create 300 training inputs; those are not
+300 distinct real Bag images.
+
+Original Fashion-MNIST dataset page:
+https://github.com/zalandoresearch/fashion-mnist
+Place downloaded files under Datasets/fashion/ (see README.txt).

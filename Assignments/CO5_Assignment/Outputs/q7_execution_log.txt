@@ -1,0 +1,3 @@
+DEMO WARNING: augmenting digit images to 300; not distinct Fashion-MNIST Bag photographs
+model trainable params 102816
+{'data_source': 'DIGITS PROXY DEMONSTRATION (NOT Fashion-MNIST)', 'target_class': 8, 'category_train_count': 300, 'parameters': 102816, 'generated_count': 1000, 'flagged_near_copies': 0, 'unflagged_count': 1000, 'recognized_as_target': 0, 'target_recognition_rate': 0.0, 'mean_target_confidence': 1.3452640134019352e-17, 'copy_threshold': 0.8516649603843689, 'min_distance_mean': 6.57062292098999, 'train_loss_start': 546.2028637695313, 'train_loss_end': 367.988065999349}

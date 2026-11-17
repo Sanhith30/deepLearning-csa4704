@@ -1,0 +1,178 @@
+{
+  "1": {
+    "Z": 18.774718370381606,
+    "most_likely": {
+      "v1": 1,
+      "v2": 1,
+      "h": 1,
+      "energy": -2.0,
+      "unnormalized": 7.38905609893065,
+      "probability": 0.3935641511718966
+    },
+    "states": [
+      {
+        "v1": 0,
+        "v2": 0,
+        "h": 0,
+        "energy": -0.0,
+        "unnormalized": 1.0,
+        "probability": 0.053263115870625675
+      },
+      {
+        "v1": 0,
+        "v2": 0,
+        "h": 1,
+        "energy": -0.0,
+        "unnormalized": 1.0,
+        "probability": 0.053263115870625675
+      },
+      {
+        "v1": 0,
+        "v2": 1,
+        "h": 0,
+        "energy": 0.5,
+        "unnormalized": 0.6065306597126334,
+        "probability": 0.032305712807361026
+      },
+      {
+        "v1": 0,
+        "v2": 1,
+        "h": 1,
+        "energy": -0.5,
+        "unnormalized": 1.6487212707001282,
+        "probability": 0.08781603207966614
+      },
+      {
+        "v1": 1,
+        "v2": 0,
+        "h": 0,
+        "energy": -0.5,
+        "unnormalized": 1.6487212707001282,
+        "probability": 0.08781603207966614
+      },
+      {
+        "v1": 1,
+        "v2": 0,
+        "h": 1,
+        "energy": -1.5,
+        "unnormalized": 4.4816890703380645,
+        "probability": 0.23870872424953302
+      },
+      {
+        "v1": 1,
+        "v2": 1,
+        "h": 0,
+        "energy": -0.0,
+        "unnormalized": 1.0,
+        "probability": 0.053263115870625675
+      },
+      {
+        "v1": 1,
+        "v2": 1,
+        "h": 1,
+        "energy": -2.0,
+        "unnormalized": 7.38905609893065,
+        "probability": 0.3935641511718966
+      }
+    ]
+  },
+  "-1": {
+    "Z": 10.960071160899256,
+    "most_likely": {
+      "v1": 1,
+      "v2": 0,
+      "h": 1,
+      "energy": -1.5,
+      "unnormalized": 4.4816890703380645,
+      "probability": 0.4089105813771331
+    },
+    "states": [
+      {
+        "v1": 0,
+        "v2": 0,
+        "h": 0,
+        "energy": -0.0,
+        "unnormalized": 1.0,
+        "probability": 0.09124028350906725
+      },
+      {
+        "v1": 0,
+        "v2": 0,
+        "h": 1,
+        "energy": -0.0,
+        "unnormalized": 1.0,
+        "probability": 0.09124028350906725
+      },
+      {
+        "v1": 0,
+        "v2": 1,
+        "h": 0,
+        "energy": 0.5,
+        "unnormalized": 0.6065306597126334,
+        "probability": 0.05534002934912227
+      },
+      {
+        "v1": 0,
+        "v2": 1,
+        "h": 1,
+        "energy": 1.5,
+        "unnormalized": 0.22313016014842982,
+        "probability": 0.020358459071366318
+      },
+      {
+        "v1": 1,
+        "v2": 0,
+        "h": 0,
+        "energy": -0.5,
+        "unnormalized": 1.6487212707001282,
+        "probability": 0.15042979616610933
+      },
+      {
+        "v1": 1,
+        "v2": 0,
+        "h": 1,
+        "energy": -1.5,
+        "unnormalized": 4.4816890703380645,
+        "probability": 0.4089105813771331
+      },
+      {
+        "v1": 1,
+        "v2": 1,
+        "h": 0,
+        "energy": -0.0,
+        "unnormalized": 1.0,
+        "probability": 0.09124028350906725
+      },
+      {
+        "v1": 1,
+        "v2": 1,
+        "h": 1,
+        "energy": -0.0,
+        "unnormalized": 1.0,
+        "probability": 0.09124028350906725
+      }
+    ]
+  },
+  "conditionals": [
+    {
+      "v1": 0,
+      "v2": 0,
+      "hidden_probability": 0.5
+    },
+    {
+      "v1": 0,
+      "v2": 1,
+      "hidden_probability": 0.7310585786300049
+    },
+    {
+      "v1": 1,
+      "v2": 0,
+      "hidden_probability": 0.7310585786300049
+    },
+    {
+      "v1": 1,
+      "v2": 1,
+      "hidden_probability": 0.8807970779778823
+    }
+  ]
+}

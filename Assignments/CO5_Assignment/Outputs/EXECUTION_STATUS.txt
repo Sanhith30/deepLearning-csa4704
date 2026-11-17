@@ -1,0 +1,13 @@
+EXECUTION STATUS (17 November 2026)
+Q1: executed successfully, exact eight-state probabilities for w2=1 and -1.
+Q2: executed successfully, sklearn Digits RBM hidden 16 and 64.
+Q3: executed successfully, 100/500/all labels and 2 seeds.
+Q4: executed successfully with --demo ONLY (resized Digits), not Fashion-MNIST.
+Q5: executed successfully with --demo ONLY (resized Digits), not Fashion-MNIST.
+Q6: executed successfully with --demo ONLY (resized Digits), not Fashion-MNIST.
+Q7: executed successfully with --demo ONLY (augmented Digits class 8), not Fashion-MNIST.
+
+The Q7 class recognition check failed in the demo, and the GAN collapsed
+to one digit class under the demonstrated classifier. These failures are
+reported in the final document. The code will accept official Fashion-MNIST
+once the dataset files are supplied, but no Fashion result has been fabricated.

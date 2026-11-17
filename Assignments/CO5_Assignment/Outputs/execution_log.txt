@@ -1,0 +1,47 @@
+w2=1; Z=18.77471837; most likely={'v1': 1, 'v2': 1, 'h': 1, 'energy': -2.0, 'unnormalized': 7.38905609893065, 'probability': 0.3935641511718966}
+w2=-1; Z=10.96007116; most likely={'v1': 1, 'v2': 0, 'h': 1, 'energy': -1.5, 'unnormalized': 4.4816890703380645, 'probability': 0.4089105813771331}
+P(h=1|v)= {'v1': 0, 'v2': 0, 'hidden_probability': 0.5}
+P(h=1|v)= {'v1': 0, 'v2': 1, 'hidden_probability': 0.7310585786300049}
+P(h=1|v)= {'v1': 1, 'v2': 0, 'hidden_probability': 0.7310585786300049}
+P(h=1|v)= {'v1': 1, 'v2': 1, 'hidden_probability': 0.8807970779778823}
+hidden 16 mean pseudo log likelihood -28.1289 seconds 0.067
+hidden 64 mean pseudo log likelihood -27.4454 seconds 0.118
+{'seed': 11, 'labels': 100, 'model': 'baseline', 'accuracy': 0.9133333333333333, 'train_seconds': 0.029511208000002398}
+{'seed': 11, 'labels': 100, 'model': 'DBN pipeline', 'accuracy': 0.12222222222222222, 'train_seconds': 0.017237241999993103}
+{'seed': 11, 'labels': 500, 'model': 'baseline', 'accuracy': 0.9488888888888889, 'train_seconds': 0.031083873999989464}
+{'seed': 11, 'labels': 500, 'model': 'DBN pipeline', 'accuracy': 0.12666666666666668, 'train_seconds': 0.12421958500002006}
+{'seed': 11, 'labels': 'all', 'model': 'baseline', 'accuracy': 0.9711111111111111, 'train_seconds': 0.119336125000018}
+{'seed': 11, 'labels': 'all', 'model': 'DBN pipeline', 'accuracy': 0.14222222222222222, 'train_seconds': 0.10443779400000608}
+{'seed': 29, 'labels': 100, 'model': 'baseline', 'accuracy': 0.92, 'train_seconds': 0.09979636499997468}
+{'seed': 29, 'labels': 100, 'model': 'DBN pipeline', 'accuracy': 0.09777777777777778, 'train_seconds': 0.008842163999986496}
+{'seed': 29, 'labels': 500, 'model': 'baseline', 'accuracy': 0.9533333333333334, 'train_seconds': 0.10977248199998257}
+{'seed': 29, 'labels': 500, 'model': 'DBN pipeline', 'accuracy': 0.12444444444444444, 'train_seconds': 0.058079743999996936}
+{'seed': 29, 'labels': 'all', 'model': 'baseline', 'accuracy': 0.9777777777777777, 'train_seconds': 0.10959375100000557}
+{'seed': 29, 'labels': 'all', 'model': 'DBN pipeline', 'accuracy': 0.1288888888888889, 'train_seconds': 0.10232738799999197}
+DATA SOURCE: DIGITS PROXY DEMONSTRATION (NOT Fashion-MNIST)
+latent 2 mse 0.038423553109169006 params 202516
+latent 16 mse 0.026443568989634514 params 207920
+epoch 1 G 0.836 D 1.211
+epoch 2 G 1.3259 D 0.6952
+epoch 3 G 1.7291 D 0.5205
+epoch 4 G 1.6126 D 0.759
+epoch 5 G 1.2159 D 1.09
+epoch 6 G 0.9646 D 1.3533
+epoch 7 G 0.9589 D 1.3286
+epoch 8 G 1.025 D 1.2366
+epoch 9 G 1.0602 D 1.2003
+epoch 10 G 1.0246 D 1.2726
+epoch 11 G 1.0758 D 1.2007
+epoch 12 G 1.1702 D 1.0813
+epoch 13 G 1.1949 D 1.07
+epoch 14 G 1.2012 D 1.0672
+epoch 15 G 1.2361 D 1.0104
+epoch 16 G 1.2725 D 0.9637
+epoch 17 G 1.3076 D 0.9369
+epoch 18 G 1.3495 D 0.9136
+epoch 19 G 1.4432 D 0.8447
+epoch 20 G 1.3847 D 0.9458
+epoch 21 G 1.4498 D 0.8744
+epoch 22 G 1.5326 D 0.8033
+epoch 23 G 1.6222 D 0.7064
+epoch 24 G 1.7861 D 0.5816

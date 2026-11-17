@@ -1,0 +1,12 @@
+[
+  {
+    "hidden_units": 16,
+    "mean_pseudo_log_likelihood": -28.12891960822278,
+    "seconds": 0.0672152399999959
+  },
+  {
+    "hidden_units": 64,
+    "mean_pseudo_log_likelihood": -27.445367580650277,
+    "seconds": 0.1183814319999783
+  }
+]

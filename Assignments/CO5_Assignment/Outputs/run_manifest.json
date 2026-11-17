@@ -1,0 +1,38 @@
+{
+  "python": "3.13.5",
+  "torch": "2.10.0+cpu",
+  "sklearn": "1.8.0",
+  "numpy": "2.3.5",
+  "matplotlib": "3.10.8",
+  "machine": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "runs": [
+    {
+      "q": 1,
+      "status": "executed on required dataset"
+    },
+    {
+      "q": 2,
+      "status": "executed on required dataset"
+    },
+    {
+      "q": 3,
+      "status": "executed on required dataset"
+    },
+    {
+      "q": 4,
+      "status": "executed on explicit digits proxy only; Fashion-MNIST unavailable"
+    },
+    {
+      "q": 5,
+      "status": "executed on explicit digits proxy only; Fashion-MNIST unavailable"
+    },
+    {
+      "q": 6,
+      "status": "executed on explicit digits proxy only; Fashion-MNIST unavailable"
+    },
+    {
+      "q": 7,
+      "status": "executed on explicit digits proxy only; Fashion-MNIST unavailable"
+    }
+  ]
+}
